@@ -1,18 +1,24 @@
 #!/user/bin/python
 # -*- conding:utf-8 -*-
 '''
-@File    :   Hello.py    
+@File    :   IfDemo3.py    
 @Contact :   18514815382@163.com
 @License :   (C)Copyright 2017-2018, Liugroup-NLPR-CASIA
 
 @Modify Time      @Author    @Version    @Desciption
 ------------      -------    --------    -----------
-2019/2/24 16:33   luk      1.0         None
+2019/2/25 23:05   luk      1.0         None
 '''
 
 # import lib
 
-# 我在笑
-print("hello")
-# 我还在笑
-print("oh hahahah")
+a = input("请输入姓名：")
+
+if a=="luk" :
+    print("哇，帅哥！")
+elif a=="aaa" :
+    print("什么鬼？")
+elif a == "bbb" :
+    print("滚蛋！ ")
+else:
+    print("呵呵哒")
