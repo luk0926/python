@@ -53,3 +53,4 @@ def fun(*args, **kwargs):
     foo(*args, **kwargs)
 
 fun(1, z=3, y=2)
+
